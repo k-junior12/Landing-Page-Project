@@ -50,14 +50,37 @@ h1{
 .header-bodyleftp{
     font-size: 18px;
     color: #E5E7EB;
+    
 }
-.header-bodyleft,.header-bodyright{
+.header-bodyright{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 50%;
+    
+
+}
+.header-bodyleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 150px;
 }
 .header-body{
     display: flex;
     flex-direction: row;
+    margin: 50px;
+}
+img{
+    margin: 50px;
+}
+
+.header-btn{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    width: 70px;
+    height: 30px;
 }
