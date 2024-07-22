@@ -178,3 +178,12 @@ h4{
  border-radius: 8px;
  color: white;
 }
+.footer{
+    background-color: #1F2937;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
