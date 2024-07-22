@@ -3,7 +3,7 @@
 *{
     padding: 0;
     margin: 0;
-     font-family: "Roboto", sans-serif;
+     font-family: "Roboto" sans-serif;
      
 }    
 .Header{
@@ -13,4 +13,51 @@
 .nav-barlogo{
     font-size: 24px;
     color: #F9FAF8;
+}
+ul{
+    display: flex;
+    flex-direction: row;gap: 30px;
+}
+
+ul li {
+    list-style: none;
+    gap: 50px;
+}
+   
+ul li a{
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+    
+    
+
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+.nav-barlogo,.nav-barlinks{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.header-bodyleftp{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-bodyleft,.header-bodyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header-body{
+    display: flex;
+    flex-direction: row;
 }
