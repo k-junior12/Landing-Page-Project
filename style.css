@@ -97,7 +97,7 @@ h2{
     flex-direction: row;
     justify-content: space-between;
     max-width: 100%;
-    margin: 100px;
+    margin: 110px;
 }
 
 .item{
@@ -111,4 +111,29 @@ h2{
 .item-p{
     text-align: center;
     font-size: 18px;
+}
+
+.block-3{
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+h3{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+}
+
+.block-3p{
+    font-size: 18px;
+
+}
+.block-3pd{
+    display: flex;
+    justify-content: end;padding-right: 290px;
 }
